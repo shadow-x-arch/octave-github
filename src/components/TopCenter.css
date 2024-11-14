@@ -1,0 +1,117 @@
+ 
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #a6b6c5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   margin-top: 5%; 
+    display: flex;
+    flex-wrap: wrap; 
+    flex: 1 1 200px; /* Shrinks and grows to fit within available space */
+  
+  
+}
+
+ 
+
+.access {
+    display: flex;
+    align-items: center;
+}
+
+.lock-icon {
+    margin-right: 8px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+   
+}
+
+.profile-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.more-members {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    margin-right: 8px;
+}
+
+.add-button {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.task-tabs {
+    display: flex;
+  
+}
+ 
+.count {
+    background-color: #fff;
+    color: #6200ea;
+    border-radius: 50%;
+    padding: 2px 8px;
+    margin-left: 8px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15%;
+}
+
+ 
+
+.inline-list {
+  display: flex;          /* Arrange all items in a row */
+  list-style-type: none;  /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+  overflow-x: auto;       /* Allow horizontal scroll if content overflows */
+  white-space: nowrap;  
+  text-decoration: none;   /* Prevent items from wrapping to the next line */
+}
+
+.inline-list li {
+  margin-right: 20px;     /* Space between each item */
+  display: inline-flex;   /* Align icon and text inline */
+  align-items: center;    
+}
+
+.inline-list li i {
+  margin-right: 5px; 
+  padding-right: 0%;    /* Space between icon and text */
+}
+.your-class {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: lowercase;
+    border: none;          /* Removes borders */
+    padding-left: 0;      /* Sets right padding to zero */
+    text-align: left;     /* Aligns text to the right */
+  }
+  .h5 {
+    margin-left : 5px;
+    margin-right: 50px; margin-top: 10px;
+  }
+  
+      

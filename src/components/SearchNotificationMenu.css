@@ -1,0 +1,132 @@
+/* src/components/SearchNotificationMenu.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-notification {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 74.2%;
+    padding: 10px;
+    
+    background-color: #a6b6c5;
+    color: white;
+    position: fixed;
+    top: 5px;
+  
+    z-index: 1000;
+    margin-right:10%;
+    border-radius: 5px;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dad5df;
+    text-transform:uppercase;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons i {
+    font-size: 24px;
+    margin-left: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+  }
+  
+  .notification {
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 1px 3px;
+    font-size: 2px;
+  }
+  
+  .i  {
+ 
+ 
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease; 
+ 
+      border-radius:60px;
+      background-color: #d7cee0;
+      color: #ecbaba;
+      width:60%;
+      height:50%;
+      cursor: pointer;
+   
+  }
+  .i img {
+    width:50%;
+    height:40%;
+ 
+  }
+  .y  {
+ 
+ 
+    cursor: pointer;
+    position: relative;
+    transition: background-color 0.3s ease; 
+ 
+      border-radius:60px;
+      background-color: #d0c2df;
+      color: #ecbaba;
+   
+      cursor: pointer;
+   
+  }
+  .y img {
+    width:60%;
+    height:60%;
+  }
+  button {
+    
+    border-radius: 8px;
+    border: 1px solid transparent;
+   
+    font-size: 1em;
+    font-weight: 10;
+    font-family: inherit;
+    background-color: #1a1a1a;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+  button:hover {
+    border-color: #7e9eda;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 2px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #213547;
+      
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #a6b6c5;
+    }
+  }
+  

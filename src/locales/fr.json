@@ -1,0 +1,19 @@
+{
+    "messages": {
+      "greeting": "Bonjour! Octave Comment puis-je vous aider?",
+      "time1": "Hier, 9:00 AM",
+      "userMessage1": "Salut, j'avais une question sur vos services.",
+      "time2": "Hier, 9:02 AM",
+      "botMessage1": "Bien sûr! Je suis là pour aider.",
+      "time3": "Hier, 9:03 AM",
+      "userMessage2": "Pourriez-vous m'en dire plus sur le plan premium?",
+      "time4": "Hier, 9:05 AM",
+      "botMessage2": "Certainement! Notre plan premium offre des fonctionnalités exclusives adaptées aux utilisateurs avancés.",
+      "time5": "Hier, 9:06 AM",
+      "botResponse": "Laissez-moi vérifier ça pour vous!",
+      "typing": "Le bot est en train d'écrire...",
+      "placeholder": "Tapez un message...",
+      "send": "Envoyer"
+    }
+  }
+  

@@ -1,0 +1,114 @@
+/* General styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+  }
+  
+  /* Shared Card Styles */
+  .card {
+    position: relative;
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Status badge */
+  .status {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    background-color: #adc2d8;
+  }
+  
+  .todo { background-color: #ffb400; }
+  .in-progress { background-color: #4a90e2; }
+  .completed { background-color: #7ed321; }
+  
+  /* Footer styling */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+  }
+  
+  .avatars img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: -10px;
+    border: 2px solid white;
+     
+  }
+  
+  /* Unique Styles for Each Card */
+  .card-1 .description {
+    order: 1;
+  }
+  
+  .card-2 h3 {
+    font-size: 22px;
+    order: 2;
+  }
+  
+  .card-3 {
+    background: #adc2d8;
+  }
+  
+  .card-4 h3 {
+    color: #333;
+    order: 3;
+  }
+  
+  .card-5 .status {
+    background-color: #FF5722;
+  }
+  
+  .card-6 .deadline {
+    color: #e91e63;
+    font-weight: bold;
+  }
+  
+  .card-7 {
+    background-color: #f2f4f7;
+  }
+  
